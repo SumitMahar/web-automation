@@ -19,11 +19,12 @@ user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Ge
 options.add_argument(f"user-agent={user_agent}")
 
 # default download directory
-chrome_prefs = {"download.default_directory": os.path.join(base, "opData")}
+chrome_prefs = {"download.default_directory": os.path.join(base, "data")}
 options.experimental_options["prefs"] = chrome_prefs
 
 
 def login(url, options):
+    print('Process Started...')
     driver = webdriver.Chrome(service=Service(PATH), options=options)
     driver.get(url)
     driver.implicitly_wait(7)
@@ -39,9 +40,31 @@ def login(url, options):
     sign_in = driver.find_element(By.ID, "btnLogin")
     time.sleep(.2)
     sign_in.click()
+    print("log in complete")
 
     driver.implicitly_wait(4)
     time.sleep(2)
+
+    log_file = open("log.txt", "a")
+    grid_body = driver.find_element(By.CLASS_NAME, "grid-body")
+    rows = grid_body.find_elements(By.CLASS_NAME, "row")
+
+    for row in rows:
+        time_stamp, p_ip = row.find_elements(By.CLASS_NAME, "col-md-2")
+        c_name = row.find_element(By.CLASS_NAME, "col-md-3").text
+        print(f"{time_stamp.text}: {c_name} -- {p_ip.text}")
+        log_file.write(f"{time_stamp.text}: {c_name} -- {p_ip.text}")
+
+        if p_ip.text == "Processed":
+            link_div = row.find_element(By.CLASS_NAME, "col-md-5")
+            links = link_div.find_elements(By.CLASS_NAME, "underline-link")
+            print(f"downloading files for {c_name} -- {time_stamp.text}")
+            for link in links:
+                link.click()
+                time.sleep(.4)
+
+    log_file.close()
+
     return
 
 
