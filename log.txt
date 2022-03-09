@@ -1,0 +1,58 @@
+03/08/2022 10:45:30 -- Manhattan Lane -Amazon SC -- InProgress
+03/08/2022 10:15:30 -- Ashley Home -- Processed
+03/08/2022 10:13:30 -- Cymax -- Processed
+03/08/2022 10:10:30 -- Amazon VC DSV -- Processed
+03/08/2022 10:09:30 -- Walmart Marketplace -- Processed
+03/08/2022 10:00:00 -- Wayfair -- Processed
+03/08/2022 09:54:30 -- Overstock -- Processed
+03/08/2022 09:45:30 -- Manhattan Lane -Amazon SC -- Processed
+03/08/2022 09:15:00 -- Ashley Home -- Processed
+03/08/2022 09:13:00 -- Cymax -- Processed
+03/09/2022 06:20:30 -- Ashley Home -- Processed
+03/09/2022 06:18:32 -- Cymax -- Processed
+03/09/2022 06:18:32 -- Amazon VC DSV -- InProgress
+03/09/2022 06:13:30 -- Walmart Marketplace -- Processed
+03/09/2022 06:05:00 -- Wayfair -- Processed
+03/09/2022 05:59:00 -- Overstock -- Processed
+03/09/2022 05:51:30 -- Manhattan Lane -Amazon SC -- Processed
+03/09/2022 05:20:30 -- Ashley Home -- Processed
+03/09/2022 05:18:01 -- Cymax -- Processed
+03/09/2022 05:18:01 -- Amazon VC DSV -- Processed
+03/09/2022 06:20:30 -- Ashley Home -- Processed
+03/09/2022 06:18:32 -- Cymax -- Processed
+03/09/2022 06:18:32 -- Amazon VC DSV -- Processed
+03/09/2022 06:13:30 -- Walmart Marketplace -- Processed
+03/09/2022 06:05:00 -- Wayfair -- Processed
+03/09/2022 05:59:00 -- Overstock -- Processed
+03/09/2022 05:51:30 -- Manhattan Lane -Amazon SC -- Processed
+03/09/2022 05:20:30 -- Ashley Home -- Processed
+03/09/2022 05:18:01 -- Cymax -- Processed
+03/09/2022 05:18:01 -- Amazon VC DSV -- Processed
+03/09/2022 06:20:30 -- Ashley Home -- Processed
+03/09/2022 06:18:32 -- Cymax -- Processed
+03/09/2022 06:18:32 -- Amazon VC DSV -- Processed
+03/09/2022 06:13:30 -- Walmart Marketplace -- Processed
+03/09/2022 06:05:00 -- Wayfair -- Processed
+03/09/2022 05:59:00 -- Overstock -- Processed
+03/09/2022 05:51:30 -- Manhattan Lane -Amazon SC -- Processed
+03/09/2022 05:20:30 -- Ashley Home -- Processed
+03/09/2022 05:18:01 -- Cymax -- Processed
+03/09/2022 05:18:01 -- Amazon VC DSV -- Processed
+03/09/2022 06:20:30 -- Ashley Home -- Processed
+03/09/2022 06:18:32 -- Cymax -- Processed
+03/09/2022 06:18:32 -- Amazon VC DSV -- Processed
+03/09/2022 06:13:30 -- Walmart Marketplace -- Processed
+03/09/2022 06:05:00 -- Wayfair -- Processed
+03/09/2022 05:59:00 -- Overstock -- Processed
+03/09/2022 05:51:30 -- Manhattan Lane -Amazon SC -- Processed
+03/09/2022 05:20:30 -- Ashley Home -- Processed
+03/09/2022 05:18:01 -- Cymax -- Processed
+03/09/2022 05:18:01 -- Amazon VC DSV -- Processed
+03/09/2022 06:20:30 -- Ashley Home -- Processed
+03/09/2022 06:18:32 -- Cymax -- Processed
+03/09/2022 06:18:32 -- Amazon VC DSV -- Processed
+03/09/2022 06:20:30 -- Ashley Home -- Processed
+03/09/2022 06:18:32 -- Cymax -- Processed
+03/09/2022 06:18:32 -- Amazon VC DSV -- Processed
+03/09/2022 06:13:30 -- Walmart Marketplace -- Processed
+03/09/2022 06:05:00 -- Wayfair -- Processed
