@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from id_pass import ID, PASS
+from id_pass_ex import ID, PASS
 
 base = os.path.abspath("")
 PATH = os.path.join(base, r"cdriver\chromedriver.exe")
@@ -53,7 +53,7 @@ def login(url, options):
         time_stamp, p_ip = row.find_elements(By.CLASS_NAME, "col-md-2")
         c_name = row.find_element(By.CLASS_NAME, "col-md-3").text
         print(f"{time_stamp.text}: {c_name} -- {p_ip.text}")
-        log_file.write(f"{time_stamp.text}: {c_name} -- {p_ip.text}")
+        log_file.write(f"{time_stamp.text}: {c_name} -- {p_ip.text}\n")
 
         if p_ip.text == "Processed":
             link_div = row.find_element(By.CLASS_NAME, "col-md-5")
@@ -61,7 +61,7 @@ def login(url, options):
             print(f"downloading files for {c_name} -- {time_stamp.text}")
             for link in links:
                 link.click()
-                time.sleep(.4)
+                time.sleep(1)
 
     log_file.close()
 
